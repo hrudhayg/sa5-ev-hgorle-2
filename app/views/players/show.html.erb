@@ -1,0 +1,8 @@
+<h1><%= @player.first_name %> <%= @player.last_name %> </h1>
+<p>Position: <%= @player.position %></p>
+<p>
+<%= link_to 'Edit', edit_team_player_path(@team, @player)%>
+</p>
+<p>
+<%= link_to 'Back', team_players_path(@team)%>
+</p>
